@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>卡牌翻轉效果</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <button id="startGame">開始遊戲</button>
+    <button id="flipAllFront">翻轉所有卡牌正面</button>
+    <button id="flipAllBack">翻轉所有卡牌背面</button>
+    
+    <!-- 主題選擇框只保留兩個選項 -->
+    <label for="themeSelect">選擇主題:</label>
+    <select id="themeSelect">
+        <option value="purple">動物主題</option>
+        <option value="blue">卡通主題</option>
+    </select>
+    
+    <div class="card-container" id="cardContainer"></div>
+    <div id="timerDisplay">剩餘時間: 10秒</div>
+    <script src="script.js"></script>
+</body>
+</html>
